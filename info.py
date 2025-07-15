@@ -43,7 +43,7 @@ support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001995831309')
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 
 DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "V2Premium")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Nani')
 
 # If MULTIPLE_DB Is True Then Fill DATABASE_URI2 Value Else You Will Get Error.
